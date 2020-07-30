@@ -30,4 +30,4 @@ jobs:
       run:  yarn global add surge
       
     - name: deploying surge app
-      run:  yarn surge ./home/talibsarwar/Desktop/BootCamp/AnimationApp4a/AnimationApp4a/node_modules/.bin/surge http://animationapp4a.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
+      run:  yarn surge ./ http://animationapp4a.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
